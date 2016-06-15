@@ -1,3 +1,10 @@
+#from original .hgignore
+dev.db
+htmlcov
+.coverage
+dist
+MANIFEST
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
