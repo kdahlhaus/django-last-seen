@@ -29,7 +29,6 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'south',
     'last_seen',
 )
 
@@ -45,3 +44,5 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'last_seen.middleware.LastSeenMiddleware',
 )
+
+SECRET_KEY='42'
